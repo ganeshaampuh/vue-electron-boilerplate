@@ -94,11 +94,11 @@ function setupPreloadPackageWatcher({ ws }) {
  * because the {@link setupMainPackageWatcher} and {@link setupPreloadPackageWatcher}
  * depend on the dev server properties
  */
-const rendererWatchServer = await createServer({
+const rendererWatchServer = createServer({
   mode,
   logLevel,
   configFile: 'packages/renderer/vite.config.js',
 }).then(s => s.listen());
 
-await setupPreloadPackageWatcher(rendererWatchServer);
-await setupMainPackageWatcher(rendererWatchServer);
+setupPreloadPackageWatcher(rendererWatchServer);
+setupMainPackageWatcher(rendererWatchServer);

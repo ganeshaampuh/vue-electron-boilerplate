@@ -1,7 +1,6 @@
 import { app, BrowserWindow, shell } from 'electron';
 import { join } from 'path';
 import { URL } from 'url';
-import { autoUpdater } from 'electron-updater';
 // import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer';
 
 const isSingleInstance = app.requestSingleInstanceLock();
