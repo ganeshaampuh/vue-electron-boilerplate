@@ -31,7 +31,6 @@
   },
   "devDependencies": {
     "@types/node": "18.11.18",
-    "@vue/test-utils": "2.2.8",
     "cross-env": "7.0.3",
     "electron": "22.1.0",
     "electron-builder": "23.6.0",
