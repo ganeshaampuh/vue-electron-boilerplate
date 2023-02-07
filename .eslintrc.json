@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "env": {
+    "es2021": true,
+    "node": true,
+    "browser": false
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [],
+  "ignorePatterns": [
+    "node_modules/**",
+    "**/dist/**"
+  ],
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
+    "quotes": [
+      "warn",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ]
+  }
+}
