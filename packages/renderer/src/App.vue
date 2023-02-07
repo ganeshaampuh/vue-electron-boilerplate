@@ -13,32 +13,21 @@
         size="xl"
         margin-bottom="5"
       />
-      <mp-heading>
-        Hello Pixel 2 - Templates
-      </mp-heading>
+      <mp-heading> Hello Pixel 2 - Templates </mp-heading>
       <mp-text
         font-size="lg"
         margin-y="5"
       >
-        Templates are page-level objects that place components into a layout and
-        articulate the design underlying content structure.
+        Templates are page-level objects that place components into a layout and articulate the
+        design underlying content structure.
       </mp-text>
-      <mp-button>
-        Click Here
-      </mp-button>
+      <mp-button> Click Here </mp-button>
     </mp-box>
   </mp-flex>
 </template>
 
 <script>
-import {
-  MpBox,
-  MpHeading,
-  MpText,
-  MpButton,
-  MpFlex,
-  MpIcon,
-} from '@mekari/pixel';
+import {MpBox, MpHeading, MpText, MpButton, MpFlex, MpIcon} from '@mekari/pixel';
 
 export default {
   name: 'LandingPage',

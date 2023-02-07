@@ -3,7 +3,5 @@
     "browser": true,
     "node": false
   },
-  "extends": [
-    "plugin:vue/recommended"
-  ]
+  "extends": ["plugin:vue/recommended"]
 }

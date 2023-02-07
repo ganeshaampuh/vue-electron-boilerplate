@@ -1,8 +1,8 @@
 /* eslint-env node */
 
-import { chrome } from '../../electron-vendors.config.json';
-import { join } from 'path';
-import { builtinModules } from 'module';
+import {chrome} from '../../electron-vendors.config.json';
+import {join} from 'path';
+import {builtinModules} from 'module';
 import vue from '@vitejs/plugin-vue2';
 
 const PACKAGE_ROOT = __dirname;
@@ -28,10 +28,7 @@ const config = {
     outDir: 'dist',
     assetsDir: '.',
     rollupOptions: {
-      external: [
-        'vue-router',
-        ...builtinModules,
-      ],
+      external: ['vue-router', ...builtinModules],
     },
     emptyOutDir: true,
     brotliSize: false,
