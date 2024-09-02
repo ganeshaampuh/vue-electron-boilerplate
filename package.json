@@ -1,14 +1,15 @@
 {
-  "name": "mekari-rta",
-  "description": "Mekari RTA by Mekari",
+  "name": "desktop-vue-electron",
+  "description": "Desktop Vue Electron",
   "version": "0.0.1",
   "private": false,
   "engines": {
     "node": ">=v16.13",
-    "npm": ">=8.1"
+    "npm": ">=8.1",
+    "bun": ">=1.0.11"
   },
   "author": {
-    "email": "ganesha.ampuh@mekari.com",
+    "email": "ganeshaampuh@gmail.com",
     "name": "Ganesha Ampuh"
   },
   "main": "packages/main/dist/index.cjs",
