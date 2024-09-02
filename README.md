@@ -1,4 +1,4 @@
-# Desktop Vue Electron
+# Desktop Vue Electron Boilerplate
 
 A desktop application built with Vue.js and Electron.
 
